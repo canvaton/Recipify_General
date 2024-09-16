@@ -9,7 +9,7 @@ api = Api(app)
 
 class Welcome(Resource):
     def get(self):
-        return "Welcome to the LLM Service"
+        return "Welcome to the General HTML Service"
 
 
 api.add_resource(Welcome, "/api")
